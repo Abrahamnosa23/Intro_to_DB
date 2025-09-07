@@ -1,7 +1,7 @@
--- Switch to the database
+-- Use the database
 USE alx_book_store;
 
--- Retrieve the full description of the table 'books' using INFORMATION_SCHEMA
+-- Get full description of the table 'Books' using INFORMATION_SCHEMA
 SELECT 
     COLUMN_NAME,
     COLUMN_TYPE,
@@ -12,6 +12,5 @@ SELECT
 FROM 
     INFORMATION_SCHEMA.COLUMNS
 WHERE 
-    TABLE_SCHEMA = 'alx_book_store' 
-    AND TABLE_NAME = 'books';
-
+    TABLE_SCHEMA = 'alx_book_store'
+    AND TABLE_NAME = 'Books';  -- Note the capital B
