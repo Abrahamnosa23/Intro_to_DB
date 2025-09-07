@@ -1,2 +1,5 @@
--- List all tables in the database passed as argument
+-- Switch to the required database
+USE alx_book_store;
+
+-- List all tables in the database
 SHOW TABLES;
